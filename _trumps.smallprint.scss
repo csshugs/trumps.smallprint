@@ -1,0 +1,21 @@
+/*------------------------------------*\
+    #SMALLPRINT
+\*------------------------------------*/
+
+/**
+ * Classes for tiny type.
+ */
+
+// Predefine the variables below in order to alter and enable specific features.
+$inuit-milli-size:    12px !default;
+$inuit-micro-size:    10px !default;
+
+.#{$inuit-namespace}milli,
+%#{$inuit-namespace}milli {
+    @include inuit-font-size($inuit-milli-size);
+}
+
+.#{$inuit-namespace}micro,
+%#{$inuit-namespace}micro {
+    @include inuit-font-size($inuit-micro-size);
+}

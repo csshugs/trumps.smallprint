@@ -1,0 +1,22 @@
+{
+  "name": "inuit-smallprint",
+  "version": "0.1.0",
+  "homepage": "https://github.com/csshugs/trumps.smallprint",
+  "authors": [
+    "Dennis Heibuelt <dennis@csshugs.com>"
+  ],
+  "description": "Classes for tiny type",
+  "main": "_trumps.smallprint.scss",
+  "keywords": [
+    "typography",
+    "type",
+    "inuitcss",
+    "oocss",
+    "css"
+  ],
+  "license": "Apache",
+  "dependencies": {
+    "inuit-defaults": "~0.2.0",
+    "inuit-mixins": "~0.2.2"
+  }
+}
