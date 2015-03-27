@@ -4,6 +4,12 @@
 
 /**
  * Classes for tiny type.
+ *
+ * Force normal paragraphs or other text elements to take a smaller
+ * font size than '$inuit-base-font-size'.
+ *
+   <p class="milli">Lorem ipsum dolor sit amet.</p>
+ *
  */
 
 // Predefine the variables below in order to alter and enable specific features.
