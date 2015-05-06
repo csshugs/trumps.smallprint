@@ -1,6 +1,6 @@
 {
   "name": "inuit-smallprint",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "homepage": "https://github.com/csshugs/trumps.smallprint",
   "authors": [
     "Dennis Heibuelt <dennis@csshugs.com>"
@@ -16,7 +16,7 @@
   ],
   "license": "Apache",
   "dependencies": {
-    "inuit-defaults": "~0.2.0",
-    "inuit-mixins": "~0.2.2"
+    "inuit-defaults": "~0.2.3",
+    "inuit-mixins": "~0.2.3"
   }
 }

@@ -8,7 +8,7 @@
  * Force normal paragraphs or other text elements to take a smaller
  * font size than '$inuit-base-font-size'.
  *
-   <p class="milli">Lorem ipsum dolor sit amet.</p>
+   <p class="u-milli">Lorem ipsum dolor sit amet.</p>
  *
  */
 
@@ -16,12 +16,10 @@
 $inuit-milli-size:    12px !default;
 $inuit-micro-size:    10px !default;
 
-.#{$inuit-namespace}milli,
-%#{$inuit-namespace}milli {
+.#{$inuit-namespace}u-milli {
     @include inuit-font-size($inuit-milli-size);
 }
 
-.#{$inuit-namespace}micro,
-%#{$inuit-namespace}micro {
+.#{$inuit-namespace}u-micro {
     @include inuit-font-size($inuit-micro-size);
 }
